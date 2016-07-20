@@ -25,4 +25,13 @@ It's code that writes
 ## Singleton Class
 
 - There is only one single instance (neo matrix)
+- It's single like me
 - The design pattern
+
+## ActiveRecord find_by
+
+- rails 1 show example of how fucked up this method missing example is
+
+## How awesome is metaprogramming
+
+- I could potentially monkey patch away nil class so I don't have to do nil checking all the time
