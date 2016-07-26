@@ -1,5 +1,7 @@
 ## Why it's not special
 
-- Pretty much this book was about how to read code (great book by the way)
-- We all do it already (even if you don't know you do you totes do because it's everywhere in rails)
-- The whole concept is "you can write better code by understanding what the hell you are doing but we will call it a fancy name because we want to be fancy" *insert picture of target superstore*
+It's just a fancy name for something you one already do and two get better at if you read the code
+- Just need to read the code
+- We all do it already
+
+*insert picture of target superstore*
