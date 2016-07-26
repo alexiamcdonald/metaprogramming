@@ -4,4 +4,4 @@ class String
   end
 end
 
-puts "HELLO".downcase
+puts "TESTING".downcase

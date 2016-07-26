@@ -1,8 +1,7 @@
-# Candy Goodison
+## Candy Goodison
 
-- {insert donesafe logo } alexiamcdonald@donesafe.com
-- {insert Twitter bird} @CandyGoodison
-- Website http://doom-pie.wix.com/inksprout
-- {insert slack } @alexia
+![redbubble](images/redbubble.png) alexiamcdonald@donesafe.com
+![twitter](images/twitter_bird.svg.png) @CandyGoodison
+Website http://doom-pie.wix.com/inksprout
 
 *** totally coded my own slides ***

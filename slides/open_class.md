@@ -1,24 +1,8 @@
 ## Opening up classes
 
-- See it a lot in config/initializers folder in your rail apps
-- Takes the latest version of the method you added. So you can overwrite methods.
-- You can also add to Classes doing this.
+- Seen a lot in rails apps in
 ```ruby
-  class String
-    def censor(bad_word, goodison_word)
-      self.gsub! "#{bad_word}", "#{goodison_word}"
-    end
-  end
-
-  puts "Hey guys! Isn't this an awesome talk!".censor(guys, folks)
-  # Hey folks! Isn't this an awesome talk!
+config/initializers
 ```
-```ruby
-  class String
-    def downcase
-      puts "I'm evil!"
-    end
-  end
-
-  puts "HELLO".downcase
-```
+- Takes the latest version of the class
+- Allows for overwriting/add methods

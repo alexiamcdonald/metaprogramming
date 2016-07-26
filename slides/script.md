@@ -9,7 +9,7 @@ Candy has been working at Red Bubble for 7 months and has heard all about metapr
 
 Candy talks about herself and then says.
 
-Candy - "Metaprogramming seems intimidating, Alexia. I'm not sure I could do it"
+Candy - "Metaprogramming sounds intimidating, Alexia. I'm not sure I could do it"
 
 Alexia - "Candy, Metaprogramming is just misunderstood. I'll show you but first I need to explain a few things."
 
