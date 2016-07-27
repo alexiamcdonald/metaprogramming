@@ -1,7 +1,7 @@
 ## Candy Goodison
 
-![redbubble](images/redbubble.png) alexiamcdonald@donesafe.com
-![twitter](images/twitter_bird.svg.png) @CandyGoodison
-Website http://doom-pie.wix.com/inksprout
+![redbubble](images/redbubble.jpg)
 
-*** totally coded my own slides ***
+![twitter](images/twitter_bird.svg.png) @CandyGoodison
+
+Website: http://doom-pie.wix.com/inksprout

@@ -1,23 +1,38 @@
-Talk about yourself.
+I'm Alexia. Currently I work at DoneSafe as the Dev team where we make
+occupational health and safety apps. You can follow me on twitter @thespacepony or
+check out my website which I never update.
 
-Alexia is doing her talk on Metaprogramming in Ruby and she wants to show everyone how easy it is. She read this amazing book by Paolo Perrotta called Metaprogramming Ruby 2: Program like the Ruby Pros.
+Alexia read this amazing book by Paolo Perrotta called Metaprogramming Ruby 2:
+Program like the Ruby Pros. She decides that after reading the book she is going
+to do a talk on the topic in the style of Fan Fiction.
 
-She decides that she is going to drag her friend Candy Goodison into her talk because she believes their needs to be more women doing technical talks at
-meetups in order to provide good role models for the Ruby community. Yay! Let's smash the Patriarchy with women and Pokemon!
-
-Candy has been working at Red Bubble for 7 months and has heard all about metaprogramming from Alexia.
+Her friend Candy Goodison is sitting in the crowd. Alexia ushers Candy to get up
+and join her on stage because she believes there needs to be more women doing
+technical talks at meetups in order to provide good role models for the Ruby
+community. She is going to show Candy how to metaprogram. Yay! Let's smash the
+Patriarchy!
 
 Candy talks about herself and then says.
 
-Candy - "Metaprogramming sounds intimidating, Alexia. I'm not sure I could do it"
+Candy - "Metaprogramming sounds intimidating, Alexia. I'm not sure I could do
+it"
 
-Alexia - "Candy, Metaprogramming is just misunderstood. I'll show you but first I need to explain a few things."
+Alexia - "Candy, I think we need to talk about feelings. You and other juniors
+probably feel intimidated. But let me tell you even senior developers can find
+metaprogramming intimidating. It's pretty much everywhere in your ruby on rails
+app and because of that it can be misunderstood. I'll show you but first I need
+to explain a few things."
 
-Go to what is metaprogramming slide.
+Metaprogramming is basically code that writes code. It gives you the ability to
+do a bunch of really cool things like open up classes or override methods in
+class. These abilities give you the power to customise your program and it can
+do this at run time. It's super powerful!
 
-Candy - "Whoa that sure sounds super powerful! What do you mean when you say you can open up classes and override methods?"
+Candy - "Whoa that sure sounds super powerful! What do you mean when you say you
+can open up classes and override methods?"
 
-Alexia - "Well it's simple! Have you ever ran into ` undefined method ... for nil:NilClass`?
+Alexia - "Well it's simple! Have you ever ran into ` undefined method ... for
+nil:NilClass`?
 
 Candy- "Yeah it's really annoying!"
 
@@ -25,42 +40,69 @@ Alexia - "Well you can totally override the Nil Class and tell it to fuck off!"
 
 Candy - "Omg that's awesome. I wanna try that."
 
-Alexia - "No Candy! You can't do that. That would be bad. That's called Monkey Patching and your team at Red Bubble would totally hate your guts if you did it."
+Alexia - "No Candy! You can't do that. That would be bad. That's called Monkey
+Patching and your team at Red Bubble would totally hate your guts if you did
+it."
 
 Candy - "Ohhh wow so that's what Monkey Patching is!"
 
-Alexia - "Yup! But I'll show you how you can override classes because it's super important to understand if you wanna be better programmer."
+Alexia - "Yup! But I'll show you how you can override classes because it's super
+important to understand if you wanna be better programmer."
 
-Show opening up classes slide
+Opening up classes is seen a lot in your rails app under the config/intializers.
+Maybe you needed to go in there to config something. Well when you do that you
+are creating a new verison of that class. In your app it will take the latest
+version of that class and run the stuff that's in there. This means you can
+override method or even add new methods.
 
-Take string for example
-You want to add a Censor method to string so you can make strings more PC. Kinda like Slackbot!
+Take string for example! say you want to add a Censor method to string so you
+can make strings more PC. Kinda like Slackbot!
 
-Candy - "I see a lot of people get upset by that slackbot being PC but I think it's the right thing to do if wanna make this community more diverse.
-Can I write this method?"
+Candy - "I see a lot of people get upset by that slackbot being PC but I think
+it's the right thing to do if wanna make this community more diverse. Can I
+write this method?"
 
-Alexia - "That's super PC! Well done. You opened up a Class. I'll show you how to override a method so you can be a bad programmer."
+Alexia: SURE
 
-Candy - "Yeah I can now see why monkey patching is bad and I shouldn't do it. So where is metaprogramming used?"
+Alexia - "That's super PC! Well done. You opened up a Class and added a new
+method. You really shouldn't do this kind of metaprogramming but I'll show you
+how to do the worst of the worst. I'll override a method!!"
 
-Show where metaprogramming is used in ruby.
+Candy - "Yeah I can now see why monkey patching is bad and I shouldn't do it. So
+where is metaprogramming used?"
 
-Alexia - "I think it's time we got more advanced. Let's talk about the eigen class. It's also known as the singleton class."
+It's used in a bunch of different places! List them. Remember when you first
+started programming in ruby and you were like 'whoa rails generate scaffold has
+done a bunch of stuff for me' Well that's metaprogramming in action.
 
-Eigen class slide
+Candy - "I want more pair programming! I use find_by all the time at work. You
+mentioned at Rails Camp that's it's metaprogramming. How?"
 
-Candy - "That class kinda sounds like you. One of a kind and single."
+This is the table for Horses. Now what happens if I want to know the Horse's
+name. Well I can find it by entering the database's field name and it will
+return the Horse by it's name.
 
-Alexia - "Yeahh... Well more about Eigen classes"
+If say I want to search by the Horse's home the application will throw an
+undefined method error.
 
-Candy - "I want more pair programming! I used find_by all the time at work. You mentioned at Rails Camp that's it's metaprogramming. How?"
+Rails is intelligent enough to know that it can chain only existing attributes
+to it's find by method and not  attributes that don't exist.
 
-Show find by example
+Basically rails takes the argument and creates a method dynamically using
+metaprogramming.
 
-Alexia - "It took me a really long time to follow the chain to figure it out. This is one of the problems with metaprogramming. It's really hard to debug on the implementation side"
+Candy - How does it do that exactly?
 
-Candy - "But it's really easy to read on the call side and I like it because of that!"
+Alexia - "Well it turns out I didn't have enough time to follow the chain to
+figure it out. This is one of the problems with metaprogramming. It's really
+hard to debug on the implementation side"
 
-Alexia - "Yeah there are a bunch of different ways it's awesome *show pros* but it's also can be bad like we saw with monkey patching and debugging"
+Candy - "But it seems really easy to read on the call side and I like it because
+of that!"
 
-Candy - "I think you're right about it not being special though. You just need to read the code to get better at it. Plus I totally do metaprogramming already at work and I didn't even know it till now. It's not that special."
+Alexia - "Yeah there are a bunch of different ways it's awesome *show pros* but
+it's also can be bad like we saw with monkey patching and debugging"
+
+Candy - "I think you're right about it not being special though. You just need
+to read the code to get better at it. Plus I totally do metaprogramming already
+at work and I didn't even know it till now. It's not that special."

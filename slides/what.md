@@ -2,6 +2,6 @@
 
 > Code that writes code
 
-**Special Abilities**
+**Gives you special abilities such as : **
 - Open up classes
 - Override methods

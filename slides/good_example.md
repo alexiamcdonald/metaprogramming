@@ -7,7 +7,7 @@
     end
   end
 
-  puts "Hey guys! Isn't this an awesome talk!".censor(guys, folks)
+  puts "Hey guys! How great is this talk, eh?".censor("guys", "folks")
 
-  # Hey folks! Isn't this an awesome talk!
+  # Hey folks! How great is this talk, eh?
 ```

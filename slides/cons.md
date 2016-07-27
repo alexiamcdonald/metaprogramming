@@ -1,5 +1,5 @@
 ## Cons
 
-- Monkeypatching
-- Debugging (Method missing)
+- Monkeypatching 
+- Debugging
 - Hard to read on implementation side

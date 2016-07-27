@@ -1,7 +1,8 @@
 ## Where is metaprogramming used?
 
 - `config/initializers`
+- Routes
 - Rake tasks
 - Rails generate*
 
-  *Senior you know I'm right coz it's code that totally writes code
+  *You know I'm right coz it's code that totally writes code

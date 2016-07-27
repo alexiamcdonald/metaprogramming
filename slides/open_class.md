@@ -5,4 +5,5 @@
 config/initializers
 ```
 - Takes the latest version of the class
-- Allows for overwriting/add methods
+- Allows for overriding
+- Allows for adding new methods

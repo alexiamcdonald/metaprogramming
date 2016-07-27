@@ -1,8 +1,10 @@
 ## Alexia McDonald
 
-![donesafe](images/donesafe.png): alexiamcdonald@donesafe.com
-![twitter](images/twitter_bird.svg.png =20x20) : @TheSpacepony
-![slack](images/slack.svg =20x20) : @alexia
+![donesafe](images/donesafe_logo_signup.png)
+
+![twitter](images/twitter_bird.svg.png)
+@TheSpacepony
+
 Website: http://alexiamcdonald.github.io/
 
 *** totally coded my own slides ***
