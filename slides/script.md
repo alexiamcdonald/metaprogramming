@@ -2,16 +2,6 @@ I'm Alexia. Currently I work at DoneSafe as the Dev team where we make
 occupational health and safety apps. You can follow me on twitter @thespacepony or
 check out my website which I never update.
 
-Alexia read this amazing book by Paolo Perrotta called Metaprogramming Ruby 2:
-Program like the Ruby Pros. She decides that after reading the book she is going
-to do a talk on the topic in the style of Fan Fiction.
-
-Her friend Candy Goodison is sitting in the crowd. Alexia ushers Candy to get up
-and join her on stage because she believes there needs to be more women doing
-technical talks at meetups in order to provide good role models for the Ruby
-community. She is going to show Candy how to metaprogram. Yay! Let's smash the
-Patriarchy!
-
 Candy talks about herself and then says.
 
 Candy - "Metaprogramming sounds intimidating, Alexia. I'm not sure I could do
@@ -24,7 +14,7 @@ app and because of that it can be misunderstood. I'll show you but first I need
 to explain a few things."
 
 Metaprogramming is basically code that writes code. It gives you the ability to
-do a bunch of really cool things like open up classes or override methods in
+do a bunch of really cool things like open up classes or override methods in that
 class. These abilities give you the power to customise your program and it can
 do this at run time. It's super powerful!
 
@@ -79,7 +69,7 @@ Candy - "I want more pair programming! I use find_by all the time at work. You
 mentioned at Rails Camp that's it's metaprogramming. How?"
 
 This is the table for Horses. Now what happens if I want to know the Horse's
-name. Well I can find it by entering the database's field name and it will
+name. Well I can find it by entering the database's field "name" and it will
 return the Horse by it's name.
 
 If say I want to search by the Horse's home the application will throw an

@@ -4,4 +4,4 @@
 
 ![twitter](images/twitter_bird.svg.png) @CandyGoodison
 
-Website: http://doom-pie.wix.com/inksprout
+Website: http://www.redbubble.com/people/inksprout
